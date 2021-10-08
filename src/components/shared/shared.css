@@ -1,0 +1,7 @@
+@media only screen and (min-height: 900px) {
+    .Logout{
+        position: absolute;
+        top: 5vh;
+        right: 5vw;
+    }
+}

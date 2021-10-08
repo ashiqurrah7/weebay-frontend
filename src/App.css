@@ -1,0 +1,22 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-height: 100%;
+    text-align: center;
+}
+
+.MuiButton-containedPrimary{
+    background-color:mediumslateblue !important;
+}
+
+.MuiButton-outlinedPrimary{
+    color:mediumslateblue !important;
+    border-color: mediumslateblue !important;
+}
+
+.MuiGrid-root{
+    min-width: min-content;
+}

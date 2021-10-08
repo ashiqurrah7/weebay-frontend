@@ -1,0 +1,7 @@
+.NavContainer{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 50rem;
+    top: 5vh;
+}

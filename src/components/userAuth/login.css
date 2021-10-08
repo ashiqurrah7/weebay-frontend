@@ -1,0 +1,52 @@
+.LoginCard, .RegisterCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;  
+    max-width:max-content;
+    max-height: max-content;
+}
+.LoginCard{
+    min-height: 22rem;
+    padding: 1rem 5rem;
+}
+
+.RegisterCard{
+    min-height: 30rem;
+    padding: 3rem 5rem;
+}
+
+h1{
+    font-weight: normal;
+}
+.flex, .expand{
+    display: flex;
+    min-width: 26rem;
+}
+.flex{
+    justify-content: space-between; 
+}
+
+.expand{
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 600px){
+    .flex{
+        flex-direction: column;
+        justify-content: space-between;
+        height: 6rem;
+    }
+
+    .flex, .expand{
+        min-width: 22vw;
+    }
+
+    .LoginCard{
+        padding: 1rem 4rem;
+    }
+    
+    .RegisterCard{
+        padding: 3rem 4rem;
+    }
+}
